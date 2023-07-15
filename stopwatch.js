@@ -126,17 +126,17 @@ $(function() {
     function addLap () {
         lapNumber++;
         let myLapDetails = 
-        '<div>'+
-            '<div>'+
+        '<div class="lap">'+
+            '<div class="lapTitle">'+
                 'Lap' + lapNumber +
             '</div>' +
-            '<div>'+
+            '<div class="lapTime">'+
                 '<span>'+ formatNumber(lapMinutes) +'</span>'+
                 ':<span>'+ formatNumber(lapSeconds) +'</span>'+
                 ':<span>'+ formatNumber(lapCentiseconds) +'</span>'+
             '</div>'
         '</div>';
-        $(myLapDetails).appendTo("#lapBox");
+        $(myLapDetails).prependTo("#lapBox");
     }
 
 });
