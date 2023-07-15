@@ -34,8 +34,13 @@ $(function() {
         
 
     // Click on resume button
+    $("#resumeButton").click(function() {
         // show stop and lap buttons
-        // start action
+        hideShowButtons("#stopButton", "#lapButton");
+        // start counter
+        startAction();
+    });
+        
 
     // Click on reset button
         // reload the page
