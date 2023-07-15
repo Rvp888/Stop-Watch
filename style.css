@@ -8,9 +8,13 @@ body {
 }
 /*Title*/
 #header {
-    color: #fff;
+    color: #f6aa39f4;
     text-align: center;
     font-size: 7vw;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
 }
 
 /* Lap */
@@ -30,17 +34,18 @@ body {
 /* Controls */
 #controlsContainer {
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .control {
     color: #fff;
-    background-color: #d7a04e;
+    background-color: #f6aa39c9;
     height: 10vw;
     width: 10vw;
     border-radius: 50%;
     text-align: center;
-    padding: 25% 0;
-    font-size: 2.5vw;
+    padding: 23% 0;
+    font-size: 2vw;
     cursor: pointer;
 }
 
