@@ -50,13 +50,22 @@ $(function() {
         
 
     // Click on lap button
+    $("#lapButton").click(function(){
         // if mode is ON
-        // stop action
-        // reset lap and print the lap details
-        // start action
+        if (mode) {
+            // stop action
+            clearInterval(action);
+            // reset lap and print the lap details
+            lapCounter = 0;
+            addLap();
+            // start action
+            startAction();
+        }
+    });
+        
 
 
-    // functions:
+    // Functions:
     // hideShowButtons function shows two buttons
     function hideShowButtons (x, y) {
         $(".control").hide();
@@ -110,6 +119,13 @@ $(function() {
         else {
             return number;
         }
+    }
+
+
+    // addLap function: to print lap details inside the Lap box
+    function addLap () {
+        let myLapDetails = '<div>Lap</div>';
+        $(myLapDetails).appendTo("#lapBox");
     }
 
 });
