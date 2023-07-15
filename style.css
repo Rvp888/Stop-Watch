@@ -1,0 +1,20 @@
+body {
+    color: #fff;
+    background: url(images/Bg-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/*Title*/
+#header {
+    color: #fff;
+    text-align: center;
+    font-size: 7vw;
+}
+
+/* Lap */
+#lap {
+    color: #fff;
+    text-align: right;
+}
