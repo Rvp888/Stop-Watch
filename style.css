@@ -17,4 +17,12 @@ body {
 #lap {
     color: #fff;
     text-align: right;
+    font-size: 4vw;
+}
+
+/* Main Time */
+#time {
+    color: #fff;
+    text-align: center;
+    font-size: 10vw;
 }
