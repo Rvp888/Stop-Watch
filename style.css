@@ -49,8 +49,9 @@ body {
     color: #d7a04e;
 }
 
-/* Laps */
-#laps {
+/* LapBox */
+#lapBox {
+    color: white;
     max-height: 270px;
     overflow-y: scroll;
 }
