@@ -43,7 +43,11 @@ $(function() {
         
 
     // Click on reset button
+    $("#resetButton").click(function(){
         // reload the page
+        location.reload();
+    });
+        
 
     // Click on lap button
         // if mode is ON
