@@ -25,8 +25,13 @@ $(function() {
         
 
     // Click on stop button
+    $("#stopButton").click(function() {
         // show resume and reset buttons
+        hideShowButtons("#resumeButton", "#resetButton");
         // stop counter
+        clearInterval(action);
+    });
+        
 
     // Click on resume button
         // show stop and lap buttons
