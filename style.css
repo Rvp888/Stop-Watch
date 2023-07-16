@@ -50,6 +50,10 @@ body {
     cursor: pointer;
 }
 
+.control:hover {
+    background-color: #f8a428;
+}
+
 .control:active {
     background-color: #fff;
     color: #d7a04e;
